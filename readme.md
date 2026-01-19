@@ -7,7 +7,7 @@ Below are the steps to run the app on the local machine and how to run it as a d
 - Python 3.11 or newer versions installed in your local machine.
 - Docker Desktop
 
-### Step 1: Open the repository link, download the zip file and unzip into your local machine
+### Step 1: Dowload the zip file and unzip into your local machine
 
 Open the folder in VSCode
 
