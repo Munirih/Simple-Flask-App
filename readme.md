@@ -49,7 +49,7 @@ docker build -t <docker_image_name> .
 
 - Once the image has been successfully built, you will need to run the image in a container. Type the command:
 
-docker run -d -p <host-port>:<container_port> --name <container_name> <docker_image_name>
+docker run -d -p <host_port>:<container_port> --name <container_name> <docker_image_name>
 
 Host_port: 5000 the app runs locally
 Container_port: 5000 as specified in the dockerfile
