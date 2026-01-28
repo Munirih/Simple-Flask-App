@@ -59,3 +59,18 @@ Container_port: 5000 as specified in the dockerfile
 - Running container 
 
 ![alt text](image-3.png)
+
+### Step 6: Push your image to Docker Hub
+
+- Create an account on DockerHub
+  
+- Run the following commands:
+docker tag <docker_image_name>:<tag> <docker_username>/<repository_name>:<tag>
+
+docker push <docker_username>/<repository_name>:<tag>
+
+![alt text](image-4.png)
+
+Repository on Docker Hub
+
+![alt text](image-5.png)
