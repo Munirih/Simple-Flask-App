@@ -7,7 +7,7 @@ Below are the steps to run the app on the local machine and how to run it as a d
 - Python 3.11 or newer versions installed in your local machine.
 - Docker Desktop
 
-### Step 1: Open the repository link, download the zip file and unzip into your local machine
+### Step 1: Dowload the zip file and unzip into your local machine
 
 Open the folder in VSCode
 
@@ -49,7 +49,7 @@ docker build -t <docker_image_name> .
 
 - Once the image has been successfully built, you will need to run the image in a container. Type the command:
 
-docker run -d -p <host-port>:<container_port> --name <container_name> <docker_image_name>
+docker run -d -p <host_port>:<container_port> --name <container_name> <docker_image_name>
 
 Host_port: 5000 the app runs locally
 Container_port: 5000 as specified in the dockerfile
@@ -59,6 +59,7 @@ Container_port: 5000 as specified in the dockerfile
 - Running container 
 
 ![alt text](image-3.png)
+
 
 ### Step 6: Push your image to Docker Hub
 
