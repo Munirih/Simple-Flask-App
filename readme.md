@@ -66,9 +66,9 @@ Container_port: 5000 as specified in the dockerfile
 - Create an account on DockerHub
   
 - Run the following commands:
-docker tag <docker_image_name>:<tag> <docker_username>/<repository_name>:<tag>
+docker tag <docker_image_name>:<tag_name> <docker_username>/<repository_name>:<tag_name>
 
-docker push <docker_username>/<repository_name>:<tag>
+docker push <docker_username>/<repository_name>:<tag_name>
 
 ![alt text](image-4.png)
 
